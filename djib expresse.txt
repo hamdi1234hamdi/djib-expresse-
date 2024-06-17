@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Djib Expresse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Djib Expresse</h1>
+            <p class="tagline">Passionné de livraison rapide et efficace !</p>
+        </div>
+    </header>
+
+    <section id="vetements">
+        <div class="container blue-background">
+            <h2>Service de livraison de vêtements</h2>
+            <p>Description des services de livraison de vêtements...</p>
+            <p>Avantages de choisir Djib Expresse pour la livraison de vêtements...</p>
+        </div>
+    </section>
+
+    <section id="nourriture">
+        <div class="container orange-background">
+            <h2>Service de livraison de nourriture</h2>
+            <p>Informations sur la livraison rapide de produits alimentaires...</p>
+            <p>Types de produits alimentaires disponibles...</p>
+        </div>
+    </section>
+
+    <section id="maison">
+        <div class="container green-background">
+            <h2>Service de livraison de matériel pour la maison</h2>
+            <p>Description des articles de maison livrés rapidement...</p>
+            <p>Catégories de produits disponibles...</p>
+        </div>
+    </section>
+
+    <section id="commande">
+        <div class="container">
+            <h2>Commandez maintenant !</h2>
+            <form action="#" method="POST">
+                <label for="produit">Produit :</label>
+                <input type="text" id="produit" name="produit" required>
+                <label for="quantite">Quantité :</label>
+                <input type="number" id="quantite" name="quantite" required>
+                <label for="details">Détails de livraison :</label>
+                <textarea id="details" name="details"></textarea>
+                <button type="submit">Envoyer la commande</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Djib Expresse. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
